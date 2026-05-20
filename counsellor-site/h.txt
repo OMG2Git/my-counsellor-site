@@ -1,0 +1,86 @@
+<section class="py-32 px-6 bg-black relative border-t border-white/10 overflow-hidden" id="testimonials">
+        <div class="max-w-[1400px] mx-auto relative z-10">
+            <div class="text-center mb-24">
+                <h2 class="text-4xl md:text-6xl font-display font-medium text-white mb-6">Voices of Industry</h2>
+                <p class="text-neutral-500 uppercase tracking-widest text-xs">Trusted by leaders worldwide</p>
+            </div>
+
+            <!-- The Grid Container -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 h-[800px] overflow-hidden relative fade-mask">
+                <div class="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-black to-transparent z-20 pointer-events-none"></div>
+                <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent z-20 pointer-events-none"></div>
+
+                <!-- Column 1 -->
+                <div class="flex flex-col gap-8 testimonial-col" data-speed="0.5" style="translate: none; rotate: none; scale: none; transform: translate3d(0px, 17.6105px, 0px);">
+                    <div class="bg-[#0a0a0a] border border-white/5 p-8 rounded-2xl transition-all duration-300 hover:border-white/30 group hover-trigger">
+                        <p class="text-lg text-neutral-300 font-light mb-6 leading-relaxed">"PulseBoard transformed our fragmented workflow into a singular source of truth. The ROI was immediate."</p>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-neutral-800 rounded-full overflow-hidden grayscale-img">
+                                <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/2dbcdf02-39a2-4c13-95f7-3118cc995fa0_320w.webp" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <div class="text-white text-sm font-medium">David Chen</div>
+                                <div class="text-neutral-600 text-xs uppercase tracking-wider">CTO, Nexus</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-[#0a0a0a] border border-white/5 p-8 rounded-2xl transition-all duration-300 hover:border-white/30 group hover-trigger">
+                        <p class="text-lg text-neutral-300 font-light mb-6 leading-relaxed">"Elegant, fast, and incredibly robust. It feels like software from the future."</p>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-neutral-800 rounded-full overflow-hidden grayscale-img">
+                                <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/90ec73f0-6fd3-4d0c-922c-fcc592c983df_320w.webp" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <div class="text-white text-sm font-medium">Sarah Miller</div>
+                                <div class="text-neutral-600 text-xs uppercase tracking-wider">VP Design, Stripe</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="flex flex-col gap-8 testimonial-col -mt-24" data-speed="-0.8" style="translate: none; rotate: none; scale: none; transform: translate3d(0px, -28.1769px, 0px);">
+                    <div class="bg-[#0a0a0a] border border-white/5 p-8 rounded-2xl transition-all duration-300 hover:border-white/30 group hover-trigger">
+                        <p class="text-lg text-neutral-300 font-light mb-6 leading-relaxed">"Finally, an agency that understands that code quality is just as important as visual aesthetics."</p>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-neutral-800 rounded-full overflow-hidden grayscale-img">
+                                <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/83a1ae5f-c842-4ee9-a912-505fc66a1ee0_320w.webp" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <div class="text-white text-sm font-medium">Elena K.</div>
+                                <div class="text-neutral-600 text-xs uppercase tracking-wider">Product Lead, Linear</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-[#0a0a0a] border border-white/5 p-8 rounded-2xl transition-all duration-300 hover:border-white/30 group hover-trigger">
+                        <p class="text-lg text-neutral-300 font-light mb-6 leading-relaxed">"Scaling our infrastructure was a nightmare until PulseBoard stepped in. Flawless execution."</p>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-neutral-800 rounded-full overflow-hidden grayscale-img">
+                                <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/39e15168-9f77-4837-9a4b-89c74b8bc38b_320w.webp" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <div class="text-white text-sm font-medium">Tom Hiddleston</div>
+                                <div class="text-neutral-600 text-xs uppercase tracking-wider">CEO, Vercel</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="flex flex-col gap-8 testimonial-col" data-speed="0.6" style="translate: none; rotate: none; scale: none; transform: translate3d(0px, 21.1326px, 0px);">
+                    <div class="bg-[#0a0a0a] border border-white/5 p-8 rounded-2xl transition-all duration-300 hover:border-white/30 group hover-trigger">
+                        <p class="text-lg text-neutral-300 font-light mb-6 leading-relaxed">"We needed a partner who could handle complexity. PulseBoard delivered simplicity through complexity."</p>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-neutral-800 rounded-full overflow-hidden grayscale-img">
+                                <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/c92852bb-a510-405a-85ab-ffa0fde136a4_320w.jpg" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <div class="text-white text-sm font-medium">James O.</div>
+                                <div class="text-neutral-600 text-xs uppercase tracking-wider">Head of Eng, Uber</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
